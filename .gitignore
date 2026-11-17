@@ -1,0 +1,19 @@
+# Build output
+build/bin
+build/windows/installer/tmp
+frontend/dist
+frontend/package.json.md5
+
+# Dependencies
+node_modules
+
+# Local secrets / credentials - never commit these
+.env
+.env.*
+*.env
+*.pem
+*.pfx
+*.p12
+*.key
+credentials*
+secrets*
